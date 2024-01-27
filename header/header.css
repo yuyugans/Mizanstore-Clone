@@ -146,8 +146,10 @@ nav .nav-bar .nav-list ul li a{
         color: #CE2E2E;
     }
     
-    nav .nav-bar .nav-list ul{
+    nav .nav-bar .nav-list .hidden{
         display: none; 
+    }
+    nav .nav-bar .nav-list ul{
         position: fixed;
         margin-top: 8.2rem;
         padding-top: 2rem;
@@ -159,7 +161,6 @@ nav .nav-bar .nav-list ul li a{
         justify-content: flex-start;
         gap: 3rem;
         background: #CE2E2E;
-        transition: 0.5s ease-in-out;
     }
     
     nav .nav-bar .nav-list ul li a{
