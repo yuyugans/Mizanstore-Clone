@@ -1,8 +1,8 @@
+/* Mohamad yusup Header/Navbar */
 
-/* head nav */
+/* header  */
 
 header {
-    width: 100%;
     margin: auto;
     font-family: "Roboto", sans-serif;
 }
@@ -52,7 +52,6 @@ header {
 }
 
 /* Nav Bar */
-
 nav{
     background-color: rgb(239, 241, 242);
     display: flex;
@@ -117,8 +116,16 @@ nav .nav-bar .nav-list ul li a{
     color: black;
 }
 
-/* responsive */
+/* responsive header navbar */
 @media screen and (max-width: 825px){
+
+    header{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+     
+    }
   
     .head ul{
         justify-content: space-around;
@@ -139,20 +146,13 @@ nav .nav-bar .nav-list ul li a{
         color: #CE2E2E;
     }
     
-    nav .nav-bar .search input {
-        width: 100px;
-    }
-    
-    /* nav .nav-bar .nav-list{
-    } */
-  
     nav .nav-bar .nav-list ul{
-        /* display: none;  */
+        display: none; 
         position: fixed;
-        margin-top: 8.7rem;
+        margin-top: 8.2rem;
         padding-top: 2rem;
-        width: 50%;
-        right: 8px;
+        width: 30%;
+        right:0;
         top: -10px;
         height: 100%;
         flex-direction: column;
@@ -161,6 +161,11 @@ nav .nav-bar .nav-list ul li a{
         background: #CE2E2E;
         transition: 0.5s ease-in-out;
     }
+    
+    nav .nav-bar .nav-list ul li a{
+        color: white;
+    }
+
     nav .nav-bar .nav-list ul .slash{
         display: none;
     }
