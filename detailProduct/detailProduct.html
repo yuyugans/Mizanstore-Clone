@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/asset/detailProduct.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <title>Detail product</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <main class="container-md">
+      <div class="bg-white h-full mx-0 md:mx-10 lg:mx-40 rounded-sm">
+        <section class="pb-1">
+          <div class="flex flex-row gap-2 pl-6 pt-2 text-blue-500">
+            <p
+              class="font-bold text-xs md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800"
+            >
+              Home
+            </p>
+            <span class="text-xs md:text-base lg:text-lg text-gray-600"
+              >&#x2022;</span
+            >
+            <p
+              class="font-bold text-xs md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800"
+            >
+              Fiksi
+            </p>
+            <span class="text-xs md:text-base lg:text-lg text-gray-600"
+              >&#x2022;</span
+            >
+            <p
+              class="font-bold text-xs md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800"
+            >
+              Novel
+            </p>
+            <span class="text-xs md:text-base lg:text-lg text-gray-600"
+              >&#x2022;</span
+            >
+            <p
+              class="font-bold text-xs md:text-base lg:text-lg hover:cursor-pointer hover:text-blue-800"
+            >
+              Dewasa
+            </p>
+          </div>
+          <div
+            class="flex flex-col lg:flex-row justify-center gap-y-3 lg:gap-x-6"
+          >
+            <div
+              class="w-full lg:basis-[34%] lg:ml-3 flex flex-col items-center lg:block mt-5 lg:mt-0"
+            >
+              <div
+                class="flex justify-center items-center border-2 border-solid border-gray-200 lg:h-[31rem] w-80 lg:w-auto"
+              >
+                <img
+                  src="/detailProduct/logoDetailProduct.jpg"
+                  alt="logoProduct"
+                  width="200"
+                  class="h-80"
+                />
+              </div>
+              <div class="flex flex-row justify-center items-center">
+                <div
+                  class="grid place-content-center border-2 border-solid border-gray-200 w-32 h-28"
+                >
+                  <img
+                    src="/detailProduct/logoDetailProduct.jpg"
+                    alt="logoProduct"
+                    width="70"
+                  />
+                </div>
+                <div
+                  class="grid place-content-center border-2 border-solid border-gray-200 w-32 h-28"
+                >
+                  <img
+                    src="/detailProduct/logoDetailProduct.jpg"
+                    alt="logoProduct"
+                    width="70"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-full lg:basis-[66%] pl-3 lg:my-3 lg:mr-3 flex flex-col"
+            >
+              <div class="">
+                <div class="flex justify-start">
+                  <p class="text-gray-500 font-base text-xs md:text-base">
+                    Ketersediaan:
+                    <span
+                      class="text-red-500 pl-2 font-bold text-xs md:text-base"
+                      >Tersedia</span
+                    >
+                  </p>
+                </div>
+                <div class="flex justify-start pt-4">
+                  <h1 class="text-2xl sm:text-3xl font-normal">
+                    ANCIKA: DIA YANG BERSAMAKU TAHUN 1995
+                  </h1>
+                </div>
+                <div class="flex justify-start">
+                  <h3
+                    class="font-bold text-orange-400 font-base text-xs md:text-base"
+                  >
+                    PIDI BAIQ - MIZAN PUBLISHING
+                  </h3>
+                </div>
+                <div
+                  class="flex flex-row gap-3 section-bagikan items-center pt-7"
+                >
+                  <p class="text-sm lg:text-base">Bagikan :</p>
+                  <img
+                    src="/detailProduct/facebook.png"
+                    alt="logoFacebook"
+                    class="w-5 h-5 md:w-[1.45rem] md:h-[1.45rem]"
+                  />
+                  <img
+                    src="/detailProduct/whatsapp.png"
+                    alt="logoWhatsapp"
+                    class="w-5 h-5 md:w-6 md:h-6"
+                  />
+                  <img
+                    src="/detailProduct/twitter.png"
+                    alt="logoTwitter"
+                    class="w-5 h-5 md:w-6 md:h-6"
+                  />
+                  <img
+                    src="/detailProduct/logoLine.png"
+                    alt="logoLine"
+                    class="w-5 h-5 md:w-6 md:h-6"
+                  />
+                  <img
+                    src="/detailProduct/linkedin.png"
+                    alt="logoLinkedin"
+                    class="w-5 h-5 md:w-6 md:h-6"
+                  />
+                </div>
+                <article class="pt-12 font-base text-sm">
+                  <h2 class="font-bold text-xl lg:text-2xl">
+                    Deskripsi Singkat
+                  </h2>
+                  <p
+                    class="pt-5 leading-5 text-gray-600 text-sm lg:text-base max-w-auto"
+                  >
+                    Bismillahirrahmannirahiim. Asalamualaikum, Cika. Jangan
+                    sampai Ciwastra berubah, menjadi kekacauan, seperti Angola,
+                    Mozambik, Sudan atau Rhodesia. Kita harus berdoa untuk
+                    Ciwastra, untuk Buah Batu, untuk Sekelimus, Sapan, Derwati
+                    dan daerah-daerah lain di Bandung. Mudah-mudahan semua jalan
+                    yang memutar bergerak menuju kasih sayang. Nanti aku akan
+                    memberitahumu cukup banyak, bahwa yang aku…
+                  </p>
+                  <a
+                    href="#Deskripsi"
+                    class="text-blue-700 hover:underline text-xs md:text-sm lg:text-base"
+                    >Baca Selengkapnya...</a
+                  >
+                </article>
+                <div class="pt-7 font-bold">
+                  <p class="text-xs line-through">Rp 98.000</p>
+                  <p class="text-orange-600 text-sm">Rp 83.300</p>
+                </div>
+                <div class="pt-3 flex flex-row gap-5">
+                  <p class="text-sm sm:text-base">Qty :</p>
+                  <form action="">
+                    <div class="relative flex items-start max-w-[8rem]">
+                      <button
+                        type="button"
+                        id="decrement-button"
+                        data-input-counter-decrement="quantity-input"
+                        class="bg-white hover:bg-gray-100 border border-gray-100 rounded-s-lg p-3 h-11 focus:ring-gray-100 focus:ring-2 focus:outline-none"
+                      >
+                        <svg
+                          class="w-2 h-2 text-gray-900 hover:text-orange-600"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 18 2"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M1 1h16"
+                          />
+                        </svg>
+                      </button>
+                      <input
+                        type="text"
+                        id="quantity-input"
+                        data-input-counter
+                        aria-describedby="helper-text-explanation"
+                        class="bg-white border border-gray-100 h-11 text-center text-black text-sm focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 placeholder-black"
+                        placeholder="1"
+                        value="1"
+                        required
+                      />
+                      <button
+                        type="button"
+                        id="increment-button"
+                        data-input-counter-increment="quantity-input"
+                        class="bg-white hover:bg-gray-100 border border-gray-100 rounded-e-lg p-3 h-11 focus:ring-gray-100 focus:ring-2 focus:outline-none"
+                      >
+                        <svg
+                          class="w-2 h-2 text-gray-900 hover:text-orange-600"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 18 18"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M9 1v16M1 9h16"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="flex flex-row gap-2 pt-3">
+                  <button
+                    type="submit"
+                    class="w-16 h-10 bg-red-600 rounded-lg text-white hover:bg-red-800 hover:transition hover:duration-700"
+                  >
+                    Beli
+                  </button>
+                  <button
+                    type="submit"
+                    class="w-24 h-10 bg-red-600 rounded-lg text-white hover:bg-red-800 hover:transition hover:duration-700"
+                  >
+                    Wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt-5">
+          <div class="flex flex-col lg:flex-row justify-center gap-y-3">
+            <div class="lg:basis-[25%] px-5 lg:px-3 max-w-auto">
+              <div class="grid grid-rows-3 gap-2">
+                <div
+                  class="h-10 flex items-center pl-3 font-bold bg-orange-500 text-white hover:cursor-pointer"
+                >
+                  <p>Deskripsi</p>
+                </div>
+                <div
+                  class="h-10 flex items-center pl-3 font-bold bg-gray-100 hover:text-red-700 hover:cursor-pointer"
+                >
+                  <p>Spesifikasi Produk</p>
+                </div>
+                <div
+                  class="h-10 flex items-center pl-3 font-bold bg-gray-100 hover:text-red-700 hover:cursor-pointer"
+                >
+                  <p>Ulasan</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:basis-[75%]">
+              <div class="">
+                <div class="px-3 max-w-auto" id="Deskripsi">
+                  <p class="text-justify text-gray-700 text-sm">
+                    Bismillahirrahmannirahiim. Asalamualaikum, Cika. Jangan
+                    sampai Ciwastra berubah, menjadi kekacauan, seperti Angola,
+                    Mozambik, Sudan atau Rhodesia. Kita harus berdoa untuk
+                    Ciwastra, untuk Buah Batu, untuk Sekelimus, Sapan, Derwati
+                    dan daerah-daerah lain di Bandung. Mudah-mudahan semua jalan
+                    yang memutar bergerak menuju kasih sayang. Nanti aku akan
+                    memberitahumu cukup banyak, bahwa yang aku katakan ini tidak
+                    benar. Dilan, hamba Allah. “Menurut kamu, kalau misal ada
+                    orang, yang nanya-nanya nama …. ke teman-temanmu … sampai
+                    nanya udah nikah belum, menurut kamu orang itu seperti apa?”
+                    “Seperti Dilan!” “Ha ha ha!” “Sekarang … boleh nanya lagi?”
+                    “Apa?” “Kalau ada yang pernah ketemu kamu di rumah kakekmu …
+                    terus orang itu bilang ke Mamamu, dia belum pernah ketemu
+                    .... padahal …” “Itu juga Dilan.” "kamu harus tahu, cinta
+                    memang buta, tapi rasa cemburu itu jeli." —Ancika, 1994
+                    “Saya gak bisa suka ke orang yang ngandelin penampilan.
+                    Penampilan emang penting, tapi kepribadian lebih penting.
+                    Saya tuh gak suka kalau harus dipaksa-paksain ngegaya,
+                    padahal dirinya tersiksa.” —Ancika, 1994 “Aku suka Mike
+                    Tyson, aku suka kamu, aku suka Maradona, aku suka Mick
+                    Jagger.” —Dilan, 1994 Novel Ancika: Dilan yang Bersamaku
+                    telah dinantikan oleh para pembaca dan penggemar novel Seri
+                    Dilan karya Ayah Pidi. Novel ini akan menjawab kerinduan
+                    terhadap seri novel Dilan. Ancika Mehrunisa Rabu adalah
+                    pacar Dilan, setelah Dilan putus dengan Milea. Sosok Ancika
+                    pernah muncul secara di dalam novel Milea: Suara dari Dilan.
+                    Di dalam novel terbaru Ayah Pidi ini, Ancika akan
+                    menceritakan kisah yang terjadi pada 24 tahun yang lalu,
+                    ketika Ancika berumur 17 tahun atau pada masa-masa remajanya
+                    bersama Dilan. Meskipun Ancika memiliki sifat dan karakter
+                    yang berbeda dengan Milea, tetapi novel yang diceritakan
+                    oleh Ancika ini tidak bermaksud untuk membanding-bandingkan
+                    antara dirinya dengan Milea. Bagaimanapun, kisah Milea dan
+                    Dilan merupakan kisah lalu mereka. Di dalam novel ini,
+                    pembaca akan diajak melihat Dilan yang mulai menginjak usia
+                    dewasa. Dilan kini bukan lagi seorang panglima tempur geng
+                    motor yang disegani di Kota Bandung, melainkan tumbuh
+                    menjadi mahasiswa yang cerdas dan kreatif. Meskipun begitu,
+                    tingkah dan tutur kata Dilan yang lucu tetap melekat pada
+                    diri Dilan. Selain itu, sosok Ancika pun tidak kalah menarik
+                    daripada Dilan. Dilan dan Ancika walaupun tidak memiliki
+                    karakter yang mirip, tapi seolah-olah bahwa mereka berdua
+                    memang diciptakan untuk saling mengisi dan saling
+                    melengkapi. Apakah Ancika adalah alasan satu-satunya mengapa
+                    Dilan tidak bisa balikan dengan Milea? Baca kisah lengkap
+                    Ancika di dalam novel ini!
+                  </p>
+                </div>
+                <article
+                  class="pt-7 pl-3 lg:pl-5 pb-4 max-w-[23.4rem] sm:max-w-[26rem] lg:max-w-[40rem]"
+                >
+                  <h5 class="font-base text-lg">Keunggulan Buku</h5>
+                  <p class="text-gray-700 text-sm pl-2 lg:pl-5 pt-4">
+                    Kelanjutan kisah cinta Dilan setelah putus dari Milea sudah
+                    lama ditunggu oleh pembacanya. Ancika adalah pacar Dilan
+                    setelah Dilan putus dengan Milea. Sebagaimana tokoh Milea
+                    yang memiliki karakter yang khas, Ancika pun memiliki
+                    karakter yang kuat. Meskipun demikian, novel ini tidak
+                    bermaksud membanding-bandingkan antara Ancika dengan Milea.
+                    Seri Dilan yang hingga kini telah mencapai jutaan pembaca
+                    ini akan melanjutkan kisahnya. Seri ini telah terserap
+                    jutaan copy dan menarik jutaan penonton saat naik ke layar
+                    lebar. Di dalam novel ini juga pembaca akan melihat Dilan
+                    yang mulai tumbuh dewasa. Nantikan
+                    <span class="text-black">Ancika: Dilan yang Bersamaku</span>
+                    untuk melepas kerinduanmu terhadap cerita tentang Dilan.
+                  </p>
+                  <p class="pt-4 font-base text-lg">Resensi</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="bg-white h-full mx-0 md:mx-10 lg:mx-40 rounded-sm mt-3">
+        <section>
+          <div class="flex flex-row justify-between p-7">
+            <h2 class="text-lg font-semibold">Produk PIDI BAIQ</h2>
+            <button
+              class="w-24 h-7 rounded-full text-xs bg-white border border-red-700 text-red-700 hover:text-white hover:bg-red-700"
+            >
+              Selengkapnya
+            </button>
+          </div>
+          <hr class="mx-5" />
+          <div class="pt-7 flex flex-row p-5 gap-7 md:gap-5 overflow-x-scroll">
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik1.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="text-sm">Asbunayah</h5>
+                <p class="pt-7 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 79.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 67.000</p>
+              </div>
+            </div>
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik2.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="max-w-32 text-sm">
+                  Paket spesial gratis tshirt mi...
+                </h5>
+                <p class="pt-2 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 292.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 248.200</p>
+              </div>
+            </div>
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik3.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="text-sm max-w-28">
+                  Baracas : Barisan anti cinta a...
+                </h5>
+                <p class="pt-2 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 49.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 20.000</p>
+              </div>
+            </div>
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik4.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="text-sm max-w-28">
+                  Paket seri dilan (milea ttd+di...
+                </h5>
+                <p class="pt-2 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 217.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 180.000</p>
+              </div>
+            </div>
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik5.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="text-sm max-w-28">Milea suara dari dilan</h5>
+                <p class="pt-2 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 89.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 71.200</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="bg-white h-full mx-0 md:mx-10 lg:mx-40 rounded-sm mt-3 mb-3">
+        <section>
+          <div class="flex flex-row justify-between p-7">
+            <h2 class="text-lg font-semibold">Produk Rekomendasi</h2>
+            <button
+              class="w-24 h-7 rounded-full text-xs bg-white border border-red-700 text-red-700 hover:text-white hover:bg-red-700"
+            >
+              Selengkapnya
+            </button>
+          </div>
+          <hr class="mx-5" />
+          <div class="pt-7 flex flex-row p-5 gap-7 md:gap-5 overflow-x-scroll">
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik1.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="text-sm">Asbunayah</h5>
+                <p class="pt-7 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 79.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 67.000</p>
+              </div>
+            </div>
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik2.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="max-w-32 text-sm">
+                  Paket spesial gratis tshirt mi...
+                </h5>
+                <p class="pt-2 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 292.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 248.200</p>
+              </div>
+            </div>
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik3.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="text-sm max-w-28">
+                  Baracas : Barisan anti cinta a...
+                </h5>
+                <p class="pt-2 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 49.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 20.000</p>
+              </div>
+            </div>
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik4.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="text-sm max-w-28">
+                  Paket seri dilan (milea ttd+di...
+                </h5>
+                <p class="pt-2 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 217.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 180.000</p>
+              </div>
+            </div>
+            <div class="max-w-xs hover:cursor-pointer">
+              <a href="#">
+                <img
+                  src="/detailProduct/logoProductPidiBaik5.jpg"
+                  alt="sampul Produk Pidi Baiq"
+                  class="hover:opacity-50 w-24 h-32"
+                />
+              </a>
+              <div class="pt-3">
+                <h5 class="text-sm max-w-28">Milea suara dari dilan</h5>
+                <p class="pt-2 text-gray-600 text-xs">Pidi Baiq</p>
+                <p class="line-through text-xs text-gray-700">Rp 89.000</p>
+                <p class="text-orange-600 pl-2 text-sm">Rp 71.200</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  </body>
+</html>
