@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.list-kategori {
+.container {
   display: flex;
   justify-content: center;
 }

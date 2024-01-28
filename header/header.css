@@ -68,6 +68,7 @@ nav .logo {
 
 nav .logo a {
   color: #ce2e2e;
+  text-decoration: none;
 }
 
 nav .nav-bar {
@@ -83,6 +84,7 @@ nav .nav-bar .search {
 nav .nav-bar .search input {
   display: flex;
   flex: 1;
+  border: 1px solid;
 }
 
 nav .nav-bar .search button {
@@ -96,26 +98,27 @@ nav .nav-bar .search button {
 nav .nav-bar .search button svg {
   fill: white;
 }
-nav .nav-bar .nav-list {
+nav .nav-bar .nav-list-menu {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
-nav .nav-bar .nav-list ul {
+nav .nav-bar .nav-list-menu ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
   font-size: small;
   gap: 1rem;
 }
-nav .nav-bar .nav-list button {
+nav .nav-bar .nav-list-menu button {
   display: none;
   border: none;
   width: 40px;
   height: 30px;
 }
 
-nav .nav-bar .nav-list ul li a {
+nav .nav-bar .nav-list-menu ul li a {
   text-decoration: none;
   color: black;
 }
@@ -127,6 +130,7 @@ nav .nav-bar .nav-list ul li a {
     width: 100%;
     top: 0;
     right: 0;
+    z-index: 999;
   }
 
   .head ul {
@@ -148,10 +152,10 @@ nav .nav-bar .nav-list ul li a {
     color: #ce2e2e;
   }
 
-  nav .nav-bar .nav-list .hidden {
+  nav .nav-bar .nav-list-menu .hidden {
     display: none;
   }
-  nav .nav-bar .nav-list ul {
+  nav .nav-bar .nav-list-menu ul {
     position: fixed;
     margin-top: 8.2rem;
     padding-top: 2rem;
@@ -165,20 +169,20 @@ nav .nav-bar .nav-list ul li a {
     background: #ce2e2e;
   }
 
-  nav .nav-bar .nav-list ul li a {
+  nav .nav-bar .nav-list-menu ul li a {
     color: white;
   }
 
-  nav .nav-bar .nav-list ul .slash {
+  nav .nav-bar .nav-list-menu ul .slash {
     display: none;
   }
 
-  nav .nav-bar .nav-list button {
+  nav .nav-bar .nav-list-menu button {
     display: block;
     background: none;
   }
 
-  nav .nav-bar .nav-list {
+  nav .nav-bar .nav-list-menu {
     justify-content: flex-end;
   }
 }
